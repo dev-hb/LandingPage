@@ -1,12 +1,13 @@
 body{
-    font-family: "Source San";
 
 }
 
-.bc-dark {
-    background: #003E37;
-}
-
-.bc-primary {
-    background-color: #BEFF00;
-}
+/* Primary Colors */
+.bc-dark { background: #003E37 }
+.bc-primary { background-color: #BEFF00 }
+.bc-success { background-color: #00B02C }
+.bc-default { background-color: #424D54  }
+.c-dark { color: #003E37 }
+.c-primary { color: #BEFF00 }
+.c-success { color: #00B02C }
+.c-default { color: #424D54  }
