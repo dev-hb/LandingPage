@@ -11,3 +11,13 @@ body{
 .c-primary { color: #BEFF00 }
 .c-success { color: #00B02C }
 .c-default { color: #424D54  }
+
+/* General */
+
+a{ color: #00B02C }
+
+/* Helpers */
+.noborder { border-radius: 0; border:0 }
+.soft-radius { border-radius: 4px }
+
+/* Footer */
