@@ -1,5 +1,4 @@
 body{
-
 }
 
 /* Primary Colors */
@@ -20,7 +19,12 @@ a{ color: #00B02C }
 .noborder { border-radius: 0; border:0 }
 .soft-radius { border-radius: 4px }
 
+.img-shadow{
+    box-shadow: 1px 1px 3px #0b2e13;
+
+}
 /* Footer */
 footer{
     font-size: .8em;
 }
+
