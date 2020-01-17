@@ -1,5 +1,4 @@
-body{
-}
+body{ }
 
 /* Primary Colors */
 .bc-dark { background: #003E37 }
@@ -17,12 +16,69 @@ a{ color: #00B02C }
 
 /* Helpers */
 .noborder { border-radius: 0; border:0 }
-.soft-radius { border-radius: 4px }
-.img-shadow{
-    box-shadow: 1px 1px 3px #0b2e13;
+.soft-radius { border-radius: 2px }
+
+.options-section img{
+    width: 120px;
 }
 
 /* Header */
+.logo {
+    width: 160px;
+    position: absolute;
+    margin-top: -60px;
+}
+
+.profile-info a { color: #fff }
+
+@media only screen and (min-width: 600px){
+    .navbar {
+        width: 90%;
+        background-size: contain;
+    }
+    .navbar ul { margin-left: 200px }
+    .navbar .header-profile { right: 50px }
+}
+
+@media only screen and (max-width: 559px){
+    .navbar { width: 100% !important }
+    .navbar ul {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .navbar-collapse { margin-bottom: 60px }
+    .profile-info a { color: #000 }
+}
+.header-profile .profile-info { margin-left: 10px }
+
+.header-profile .profile-info p:first-child{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.navbar {
+    z-index: 999;
+    margin-top: 40px;
+    padding: 20px;
+    background-image: url("../images/Menu-bkg.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+.header-profile {
+    font-size: 12px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 6px;
+}
+.header-profile img{
+    width: 60px;
+    height: 60px;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -32,10 +88,12 @@ a{ color: #00B02C }
     -o-background-size: cover;
     background-size: cover;
 }
+.slide-title{
+    font-size: 30px;
+    font-weight: bold;
+}
 
 
 /* Footer */
-footer{
-    font-size: .8em;
-}
+footer { font-size: .8em }
 

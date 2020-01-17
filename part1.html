@@ -10,33 +10,78 @@
 </head>
 <body>
 
+<div class="w-75">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/Logo-otof.png" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto pull-right">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">a propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                </li>
+            </ul>
+            <hr class="d-md-none">
+            <div class="d-flex header-profile">
+                <div class="profile-picture">
+                    <img src="images/User-profile.png" alt="" class="img rounded-circle">
+                </div>
+                <div class="profile-info">
+                    <p>espace <br /> membre</p>
+                    <p>
+                        <a href="#">Login</a>
+                        <span class="c-dark">|</span>
+                        <a href="#">Register</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+</div>
+
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <!--
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
+        -->
         <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
-            <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="display-4">First Slide</h2>
-                    <p class="lead">This is a description for the first slide.</p>
-                </div>
-            </div>
-            <!-- Slide Two - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="display-4">Second Slide</h2>
-                    <p class="lead">This is a description for the second slide.</p>
-                </div>
-            </div>
-            <!-- Slide Three - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="display-4">Third Slide</h2>
-                    <p class="lead">This is a description for the third slide.</p>
+            <div class="carousel-item active" style="background-image: url('images/Hero-bkg.png')">
+                <div class="carousel-caption d-sm-block d-md-flex flex-row justify-content-left">
+                    <div class="d-none d-md-block">
+                        <img src="images/Hero-visual.png" class="align-bottom" width="500">
+                    </div>
+                    <div class="text-left col-md-4 align-self-center">
+                        <img src="images/helpers/Quote.png" class="mb-4" width="50">
+                        <p class="slide-title">
+                            Go always with the
+                            choice that scares you
+                            the most.
+                        </p>
+                        <img src="images/Badge-square.png" class="float-right" width="120">
+                    </div>
                 </div>
             </div>
         </div>
