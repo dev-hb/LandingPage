@@ -18,11 +18,22 @@ a{ color: #00B02C }
 /* Helpers */
 .noborder { border-radius: 0; border:0 }
 .soft-radius { border-radius: 4px }
-
 .img-shadow{
     box-shadow: 1px 1px 3px #0b2e13;
-
 }
+
+/* Header */
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 /* Footer */
 footer{
     font-size: .8em;
