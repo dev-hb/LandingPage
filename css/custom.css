@@ -29,34 +29,6 @@ a{ color: #00B02C }
     margin-top: -60px;
 }
 
-.profile-info a { color: #fff }
-
-@media only screen and (min-width: 600px){
-    .navbar {
-        width: 90%;
-        background-size: contain;
-    }
-    .navbar ul { margin-left: 200px }
-    .navbar .header-profile { right: 50px }
-}
-
-@media only screen and (max-width: 559px){
-    .navbar { width: 100% !important }
-    .navbar ul {
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-    .navbar-collapse { margin-bottom: 60px }
-    .profile-info a { color: #000 }
-}
-.header-profile .profile-info { margin-left: 10px }
-
-.header-profile .profile-info p:first-child{
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 0px;
-}
-
 .navbar {
     z-index: 999;
     margin-top: 40px;
@@ -66,6 +38,38 @@ a{ color: #00B02C }
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 18px;
+    position: absolute;
+}
+
+.profile-info a { color: #fff }
+
+@media only screen and (min-width: 992px){
+    .navbar {
+        width: 90%;
+        background-size: contain;
+    }
+    .navbar ul { margin-left: 180px; }
+    .navbar .header-profile { right: 70px }
+}
+
+@media only screen and (max-width: 990px){
+    .navbar {
+        width: 100% !important;
+        background-size: cover;
+    }
+    .navbar ul {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .navbar-collapse { margin-bottom: 60px }
+    .profile-info .link { color: #000 }
+}
+.header-profile .profile-info { margin-left: 10px }
+
+.header-profile .profile-info p:first-child{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
 }
 
 .header-profile {
@@ -96,4 +100,8 @@ a{ color: #00B02C }
 
 /* Footer */
 footer { font-size: .8em }
-
+footer .social { margin-left: -15px }
+footer .social img {
+    transform: scale(.5);
+    margin-right: -30px;
+}
