@@ -99,16 +99,14 @@ a{ color: #00B02C }
 
 /* User cards */
 .twPc-div {
-    background: #fff none repeat scroll 0 0;
-    border: 1px solid #e1e8ed;
-    border-radius: 6px;
+    background: #F8F8F8 none repeat scroll 0 0;
+    box-shadow: 0 0 4px #aaa;
     height: 300px;
 }
 .twPc-bg {
     background-position: 0 50%;
     background-size: 100% auto;
     border-bottom: 1px solid #e1e8ed;
-    border-radius: 4px 4px 0 0;
     height: 140px;
     width: 100%;
 }
@@ -135,10 +133,15 @@ a{ color: #00B02C }
     color: #fff;
     height: 72px;
     width: 72px;
-    margin-top: 8px;
+    margin-top: 15px;
 }
 .twPc-divUser {
-    margin-top: -20px;
+    margin-top: -24px;
+}
+.twPc-divUser .pro-id{
+    color: #000;
+    font-size: 12px;
+    margin: -6px;
 }
 .twPc-divName {
     font-size: 12px;
@@ -151,22 +154,53 @@ a{ color: #00B02C }
 .twPc-divStats {
     margin-left: 11px;
     padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90px;
 }
+.twPC-footer .img-like{
+    width: 35px;
+    margin: 12px;
+}
+.link_to_more{
+    float: right;
+}
+.lo-blog{
+
+}
+.lo-blog img{
+    width: 115px;
+    position: absolute;
+    z-index: 99;
+    margin-top: -60px;
+}
+
 /* Branding */
 
 .brands {
     width: 100%;
-    padding-top: 90px;
-    padding-bottom: 90px
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
 .brands_slider_container {
     height: 100px;
+    padding-left: 60px;
+    padding-right: 60px
+}
+
+.pics_slider_container {
+    height: 260px;
     padding-left: 97px;
     padding-right: 97px
 }
 
 .brands_slider {
+    height: 100%;
+    margin-top: 50px
+}
+
+.pic_slider {
     height: 100%;
     margin-top: 50px
 }
@@ -177,6 +211,10 @@ a{ color: #00B02C }
 
 .brands_item img {
     max-width: 70%
+}
+
+.pic_slider .brands_item img {
+    max-width: 100%;
 }
 
 .brands_nav {
@@ -209,6 +247,14 @@ a{ color: #00B02C }
 }
 
 .brands_next {
+    right: 40px
+}
+
+.pic_prev {
+    left: 40px
+}
+
+.pic_next {
     right: 40px
 }
 

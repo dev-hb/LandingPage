@@ -34,4 +34,40 @@ $(document).ready(function(){
             });
         }
     }
+
+
+    if($('.pic_slider').length)
+    {
+        var brandsSlider = $('.pic_slider');
+
+        brandsSlider.owlCarousel(
+            {
+                loop:true,
+                autoplay:true,
+                autoplayTimeout:5000,
+                nav:false,
+                dots:false,
+                autoWidth:false,
+                items:4,
+                margin:0
+            });
+
+        if($('.pic_prev').length)
+        {
+            var prev = $('.pic_prev');
+            prev.on('click', function()
+            {
+                brandsSlider.trigger('prev.owl.carousel');
+            });
+        }
+
+        if($('.pic_next').length)
+        {
+            var next = $('.pic_next');
+            next.on('click', function()
+            {
+                brandsSlider.trigger('next.owl.carousel');
+            });
+        }
+    }
 });
