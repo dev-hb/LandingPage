@@ -2,10 +2,12 @@ body{ }
 
 /* Primary Colors */
 .bc-dark { background: #003E37 }
+.bc-light { background: #FFFFFF }
 .bc-primary { background-color: #BEFF00 }
 .bc-success { background-color: #00B02C }
 .bc-default { background-color: #424D54  }
 .c-dark { color: #003E37 }
+.c-light { color: #FFFFFF }
 .c-primary { color: #BEFF00 }
 .c-success { color: #00B02C }
 .c-default { color: #424D54  }
@@ -95,6 +97,15 @@ a{ color: #00B02C }
 .slide-title{
     font-size: 30px;
     font-weight: bold;
+}
+
+/* Section 1 */
+
+.numbring {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    transform: scale(1.3);
 }
 
 /* User cards */
@@ -265,3 +276,4 @@ footer .social img {
     transform: scale(.5);
     margin-right: -30px;
 }
+
