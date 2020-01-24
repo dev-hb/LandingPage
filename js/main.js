@@ -4,17 +4,31 @@ $(document).ready(function(){
     {
         var brandsSlider = $('.brands_slider');
 
-        brandsSlider.owlCarousel(
-            {
-                loop:true,
-                autoplay:true,
-                autoplayTimeout:5000,
-                nav:false,
-                dots:false,
-                autoWidth:false,
-                items:5,
-                margin:42
-            });
+        if($(window).width() > 768){
+            brandsSlider.owlCarousel(
+                {
+                    loop:true,
+                    autoplay:true,
+                    autoplayTimeout:5000,
+                    nav:false,
+                    dots:false,
+                    autoWidth:false,
+                    items:5,
+                    margin:0
+                });
+        }else{
+            brandsSlider.owlCarousel(
+                {
+                    loop:true,
+                    autoplay:true,
+                    autoplayTimeout:5000,
+                    nav:false,
+                    dots:false,
+                    autoWidth:false,
+                    items:1,
+                    margin:0
+                });
+        }
 
         if($('.brands_prev').length)
         {
@@ -40,17 +54,31 @@ $(document).ready(function(){
     {
         var brandsSlider = $('.pic_slider');
 
-        brandsSlider.owlCarousel(
-            {
-                loop:true,
-                autoplay:true,
-                autoplayTimeout:5000,
-                nav:false,
-                dots:false,
-                autoWidth:false,
-                items:4,
-                margin:0
-            });
+        if($(window).width() > 768){
+            brandsSlider.owlCarousel(
+                {
+                    loop:true,
+                    autoplay:true,
+                    autoplayTimeout:5000,
+                    nav:false,
+                    dots:false,
+                    autoWidth:false,
+                    items:4,
+                    margin:0
+                });
+        }else{
+            brandsSlider.owlCarousel(
+                {
+                    loop:true,
+                    autoplay:true,
+                    autoplayTimeout:5000,
+                    nav:false,
+                    dots:false,
+                    autoWidth:false,
+                    items:1,
+                    margin:0
+                });
+        }
 
         if($('.pic_prev').length)
         {
